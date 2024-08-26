@@ -1,0 +1,20 @@
+{
+  "name": "college-baskeball-utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "games": "npx ts-node ./src/games.ts",
+    "event": "npx ts-node ./src/event-details.ts",
+    "players-in-tournament": "npx ts-node ./src/players-in-tournament.ts",
+    "all-teams": "npx ts-node ./src/teams.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

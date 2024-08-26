@@ -1,0 +1,73 @@
+
+> college-baskeball-utilities@1.0.0 players-in-tournament
+> npx ts-node ./src/players-in-tournament.ts
+
+id,name,abbreviation,displayName,shortDisplayName
+258,Cavaliers,UVA,Virginia Cavaliers,Virginia
+36,Rams,CSU,Colorado State Rams,Colorado St
+47,Bison,HOW,Howard Bison,Howard
+2681,Seahawks,WAG,Wagner Seahawks,Wagner
+68,Broncos,BOIS,Boise State Broncos,Boise St
+38,Buffaloes,COLO,Colorado Buffaloes,Colorado
+147,Bobcats,MTST,Montana State Bobcats,Montana St
+2755,Tigers,GRAM,Grambling Tigers,Grambling
+153,Tar Heels,UNC,North Carolina Tar Heels,North Carolina
+12,Wildcats,ARIZ,Arizona Wildcats,Arizona
+299,Beach,LBSU,Long Beach State Beach,Long Beach St
+66,Cyclones,ISU,Iowa State Cyclones,Iowa State
+2571,Jackrabbits,SDST,South Dakota State Jackrabbits,S Dakota St
+2633,Volunteers,TENN,Tennessee Volunteers,Tennessee
+2612,Peacocks,SPU,Saint Peter's Peacocks,Saint Peter's
+156,Bluejays,CREI,Creighton Bluejays,Creighton
+2006,Zips,AKR,Akron Zips,Akron
+356,Fighting Illini,ILL,Illinois Fighting Illini,Illinois
+2413,Eagles,MORE,Morehead State Eagles,Morehead St
+96,Wildcats,UK,Kentucky Wildcats,Kentucky
+2473,Golden Grizzlies,OAK,Oakland Golden Grizzlies,Oakland
+2305,Jayhawks,KU,Kansas Jayhawks,Kansas
+2535,Bulldogs,SAM,Samford Bulldogs,Samford
+2250,Bulldogs,GONZ,Gonzaga Bulldogs,Gonzaga
+2377,Cowboys,MCN,McNeese Cowboys,McNeese
+252,Cougars,BYU,BYU Cougars,BYU
+2184,Dukes,DUQ,Duquesne Dukes,Duquesne
+2579,Gamecocks,SC,South Carolina Gamecocks,South Carolina
+2483,Ducks,ORE,Oregon Ducks,Oregon
+2641,Red Raiders,TTU,Texas Tech Red Raiders,Texas Tech
+152,Wolfpack,NCSU,NC State Wolfpack,NC State
+2168,Flyers,DAY,Dayton Flyers,Dayton
+2440,Wolf Pack,NEV,Nevada Wolf Pack,Nevada
+251,Longhorns,TEX,Texas Longhorns,Texas
+265,Cougars,WSU,Washington State Cougars,Washington St
+2181,Bulldogs,DRKE,Drake Bulldogs,Drake
+344,Bulldogs,MSST,Mississippi State Bulldogs,Mississippi St
+127,Spartans,MSU,Michigan State Spartans,Michigan St
+41,Huskies,CONN,UConn Huskies,UConn
+56,Hatters,STET,Stetson Hatters,Stetson
+2509,Boilermakers,PUR,Purdue Boilermakers,Purdue
+248,Cougars,HOU,Houston Cougars,Houston
+2344,Lancers,LONG,Longwood Lancers,Longwood
+269,Golden Eagles,MARQ,Marquette Golden Eagles,Marquette
+98,Hilltoppers,WKU,Western Kentucky Hilltoppers,Western KY
+239,Bears,BAY,Baylor Bears,Baylor
+2142,Raiders,COLG,Colgate Raiders,Colgate
+2,Tigers,AUB,Auburn Tigers,Auburn
+43,Bulldogs,YALE,Yale Bulldogs,Yale
+150,Blue Devils,DUKE,Duke Blue Devils,Duke
+261,Catamounts,UVM,Vermont Catamounts,Vermont
+333,Crimson Tide,ALA,Alabama Crimson Tide,Alabama
+232,Cougars,COFC,Charleston Cougars,Charleston
+21,Aztecs,SDSU,San Diego State Aztecs,San Diego St
+5,Blazers,UAB,UAB Blazers,UAB
+275,Badgers,WIS,Wisconsin Badgers,Wisconsin
+256,Dukes,JMU,James Madison Dukes,James Madison
+2608,Gaels,SMC,Saint Mary's Gaels,Saint Mary's
+2253,Lopes,GCU,Grand Canyon Lopes,Grand Canyon
+228,Tigers,CLEM,Clemson Tigers,Clemson
+167,Lobos,UNM,New Mexico Lobos,New Mexico
+57,Gators,FLA,Florida Gators,Florida
+2226,Owls,FAU,Florida Atlantic Owls,FAU
+77,Wildcats,NU,Northwestern Wildcats,Northwestern
+158,Cornhuskers,NEB,Nebraska Cornhuskers,Nebraska
+245,Aggies,TA&M,Texas A&M Aggies,Texas A&M
+328,Aggies,USU,Utah State Aggies,Utah State
+2628,Horned Frogs,TCU,TCU Horned Frogs,TCU
