@@ -15,6 +15,11 @@ export const getBasketballEvent = async (eventId: string): Promise<EventData|und
     }
 }
 
+const formatPoints = (pointsString: string|undefined) => {
+    if(pointsString) return parseInt(pointsString);
+    return 0;
+}
+
 export const getPoints = (eventId: string, event: EventData): PlayerPointsType[] => {
 
     let playersPoints = [] as PlayerPointsType[];
@@ -29,6 +34,8 @@ export const getPoints = (eventId: string, event: EventData): PlayerPointsType[]
                     playerId: athlete.athlete.id,
                     points: formatPoints(athlete.stats[pointsIndex])
                 }
+
+                console.log(`INSERT INTO athletes Values('${athlete.athlete.id}','${team.team.id}','','','${athlete.athlete.displayName.replace("'","\\'")}','${athlete.athlete.shortName.replace("'","\\'")}');`)
 
                 playersPoints.push(singlePlayer);
             })

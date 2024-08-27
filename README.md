@@ -44,6 +44,16 @@
 - Athletes
 
 
+## SQL Statements
+```
+select pointsTable.playerId, a.displayName, a.teamId, ct.shortDisplayName, totalPoints, games 
+from (select playerid, sum(points) as totalPoints, count(points) as games 
+		from athlete_points group by playerId) as pointsTable left join 
+        athletes as a on pointsTable.playerId = a.playerId left join
+        college_teams as ct on a.teamId = ct.id
+order by totalPoints desc;
+```
+
 
 
 
