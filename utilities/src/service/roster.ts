@@ -1,4 +1,4 @@
-import {PlayerInfoType} from '../types/types';
+import {PlayerInfoType} from '../../../types/types';
 
 
 const mapPlayerInfo = (teamId: string, playerInfo: any):PlayerInfoType => {

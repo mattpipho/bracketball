@@ -1,5 +1,5 @@
-import { PlayerPointsType } from "../types/types";
-import {EventData} from '../types/espn-event-types';
+import { PlayerPointsType } from "../../../types/types";
+import {EventData} from '../../../types/espn-event-types';
 
 
 export const getBasketballEvent = async (eventId: string): Promise<EventData|undefined> => {

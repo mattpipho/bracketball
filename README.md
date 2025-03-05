@@ -44,6 +44,11 @@
 - Athletes
 
 
+## Firestore Data Model
+- Event
+    - Event Info
+    - Box Scores
+
 ## SQL Statements
 ```
 select pointsTable.playerId, a.displayName, a.teamId, ct.shortDisplayName, totalPoints, games 

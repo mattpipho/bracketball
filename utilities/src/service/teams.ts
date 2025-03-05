@@ -1,5 +1,5 @@
 
-import { TeamsResponse, Team } from "../types/espn-teams";
+import { TeamsResponse, Team } from "../../../types/espn-teams";
 
 
 export const getTeams = async (): Promise<Team[]> => {

@@ -1,7 +1,7 @@
 import { getRoster } from "./service/roster";
 import { getTournamentEvents, getTournamentTeams } from "./service/scoreboard";
-import { NCAATeam } from "./types/espn-scoreboard-types";
-import { PlayerInfoType } from "./types/types";
+import { NCAATeam } from "../../types/espn-scoreboard-types";
+import { PlayerInfoType } from "../../types/types";
 
 
 const YEAR = '2024';

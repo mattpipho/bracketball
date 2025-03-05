@@ -1,8 +1,8 @@
 import { getBasketballEvent, getPoints } from "./service/event";
 import { getTournamentEvents } from "./service/scoreboard";
-import { EventData } from "./types/espn-event-types";
-import { NCAAEvent } from "./types/espn-scoreboard-types";
-import { PlayerPointsType } from "./types/types";
+import { EventData } from "../../types/espn-event-types";
+import { NCAAEvent } from "../../types/espn-scoreboard-types";
+import { PlayerPointsType } from "../../types/types";
 
 
 const printPlayerStats = (athlete:PlayerPointsType) => {

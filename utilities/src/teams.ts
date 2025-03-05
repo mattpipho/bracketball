@@ -1,5 +1,5 @@
 import { getTeams } from "./service/teams";
-import { Team } from "./types/espn-teams";
+import { Team } from "../../types/espn-teams";
 
 const printTeams = (teams: Team[]) => {
     console.log('id,slug,abbreviation,displayName,shortDisplayName,name,nickname,location,color,alternatecolor');

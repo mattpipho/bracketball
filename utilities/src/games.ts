@@ -1,4 +1,4 @@
-import { NCAAData, NCAAEvent } from "./types/espn-scoreboard-types";
+import { NCAAData, NCAAEvent } from "../../types/espn-scoreboard-types";
 
 const getTournamentEvents = async (): Promise<NCAAEvent[]|undefined> => {
     try {
